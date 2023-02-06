@@ -6,7 +6,7 @@
 html,body{
   display: grid;
   height: 100%;
-  place-items: left;
+  place-items: center;
 }
 .wrapper{
   height: 100px;
