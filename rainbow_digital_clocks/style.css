@@ -7,7 +7,6 @@ html,body{
   display: grid;
   height: 100%;
   place-items: left;
-  background: #000;
 }
 .wrapper{
   height: 100px;
@@ -62,5 +61,5 @@ html,body{
   filter: blur(10px);
 }
 body {
-  padding: 15px;;
+  padding: 15px;
 }
