@@ -60,6 +60,3 @@ html,body{
 .wrapper span:last-child{
   filter: blur(10px);
 }
-body {
-  padding: 15px;
-}
