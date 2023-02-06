@@ -7,7 +7,7 @@ html,body{
   display: grid;
   height: 100%;
   place-items: left;
-  padding: 15px;
+  padding: 12px;
 }
 .wrapper{
   height: 100px;
