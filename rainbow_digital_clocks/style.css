@@ -7,7 +7,7 @@ html,body{
   display: grid;
   height: 100%;
   place-items: left;
-  padding: 12px;
+  background: #000;
 }
 .wrapper{
   height: 100px;
@@ -60,4 +60,7 @@ html,body{
 }
 .wrapper span:last-child{
   filter: blur(10px);
+}
+body {
+  padding: 15px;;
 }
