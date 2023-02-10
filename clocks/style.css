@@ -3,10 +3,13 @@
 }
 .booked-clock-100x100 {
 	width:200px !important;
-	height:140px !important;
+	height:130px !important;
 	text-align:center !important;
 	margin:0px auto !important;
-	padding:0px !important;
+	padding:10px 0 !important;
+  background-color: #fff9dd;
+  border: 7px solid #FADE70;
+  border-radius: 15px !important;
 	}
 	.booked-clock-100x100 * {
 		margin:0px !important;
@@ -16,7 +19,7 @@
 	text-decoration:none;
   font-weight: bold;
   font-size: 1rem;
-  line-height: 1.5rem;
+  line-height: 1.2rem;
 	}
 	.booked-clock-100x100-city.small {
 		line-height:1.15rem !important;
@@ -24,12 +27,12 @@
 		}
 .booked-clock-100x100-time {
 	text-decoration:none;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 3rem;
-  line-height: 3.5rem;
 	}
 	.booked-clock-100x100-time sup {
 		font-size:0.95rem;
+    line-height: 1rem;
 		}
 .booked-clock-100x100-date {
 	line-height:1.3rem !important;
