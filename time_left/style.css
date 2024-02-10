@@ -1,9 +1,5 @@
 :root {
-  --life-lived: 0;
-  --year-percentage: 0;
-  --month-percentage: 0;
-  --week-percentage: 0;
-  --day-percentage: 0;
+  --percentage: 0;
 }
 
 body {
@@ -63,21 +59,21 @@ body {
 }
 
 .life::before {
-  width: var(--life-lived);
+  width: var(--percentage);
 }
 
 .year::before {
-  width: var(--year-percentage);
+  width: var(--percentage);
 }
 
 .month::before {
-  width: var(--month-percentage);
+  width: var(--percentage);
 }
 
 .week::before {
-  width: var(--week-percentage);
+  width: var(--percentage);
 }
 
 .day::before {
-  width: var(--day-percentage);
+  width: var(--percentage);
 }/*# sourceMappingURL=style.css.map */
