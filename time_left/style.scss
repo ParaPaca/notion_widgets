@@ -1,0 +1,80 @@
+@import url(/reset.css);
+
+:root {
+  --life-lived: 0;
+  --year-percentage: 0;
+  --month-percentage: 0;
+  --week-percentage: 0;
+  --day-percentage: 0;
+}
+
+body {
+  background-color: white;
+  height: 100vh;
+  font-family: monospace;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.widget-container {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.widget-container__rows-container {
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+.rows-container__row-wrap {
+ display: grid;
+ grid-template-columns: 1fr 1fr;
+ align-items: center;
+ gap: 10px;
+}
+
+.life,
+.year,
+.month,
+.week,
+.day {
+  position: relative;
+  width: 160px;
+  padding: 8px;
+  border-radius: 20px;
+  border: 2px solid black;
+  &::before {
+    position: absolute;
+    content: "";
+    border-radius: 20px;
+    height: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 3px;
+    background-color: black;
+  }
+}
+
+.life::before {
+  width: var(--life-lived);
+}
+
+.year::before {
+  width: var(--year-percentage);
+}
+
+.month::before {
+  width: var(--month-percentage);
+}
+
+.week::before {
+  width: var(--week-percentage);
+}
+
+.day::before {
+  width: var(--day-percentage);
+}
