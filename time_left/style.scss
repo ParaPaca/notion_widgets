@@ -1,9 +1,4 @@
 :root {
-  // --life-lived: 0;
-  // --year-percentage: 0;
-  // --month-percentage: 0;
-  // --week-percentage: 0;
-  // --day-percentage: 0;
   --percentage: 0;
 }
 
@@ -17,15 +12,11 @@ body {
 
 .widget-container {
   padding: 20px;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
 }
 .widget-container__rows-container {
   width: 250px;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
   gap: 10px;
 }
 
@@ -55,25 +46,6 @@ body {
     transform: translateY(-50%);
     left: 3px;
     background-color: black;
+    width: var(--percentage);
   }
-}
-
-.life::before {
-  width: var(--percentage);
-}
-
-.year::before {
-  width: var(--percentage);
-}
-
-.month::before {
-  width: var(--percentage);
-}
-
-.week::before {
-  width: var(--percentage);
-}
-
-.day::before {
-  width: var(--percentage);
 }

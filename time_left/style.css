@@ -12,16 +12,12 @@ body {
 
 .widget-container {
   padding: 20px;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
 }
 
 .widget-container__rows-container {
   width: 250px;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
   gap: 10px;
 }
 
@@ -56,24 +52,5 @@ body {
   transform: translateY(-50%);
   left: 3px;
   background-color: black;
-}
-
-.life::before {
-  width: var(--percentage);
-}
-
-.year::before {
-  width: var(--percentage);
-}
-
-.month::before {
-  width: var(--percentage);
-}
-
-.week::before {
-  width: var(--percentage);
-}
-
-.day::before {
   width: var(--percentage);
 }/*# sourceMappingURL=style.css.map */
