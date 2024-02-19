@@ -6,7 +6,7 @@ const getPercentageAndText = (progressSelector, textSelector, value) => {
 
   progressElement.style.setProperty(
     "--percentage",
-    `calc(${percentage}% - 3px)`
+    `calc(${percentage}% - 6px)`
   );
   textElement.innerHTML += `${percentage}%`;
 };
